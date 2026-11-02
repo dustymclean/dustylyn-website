@@ -1,0 +1,10 @@
+DustyLyn.com local website copy
+
+The full official biography is in about/index.html and DustyLyn-Official-Biography.md.
+Direct download buttons for the personal logo and portrait appear on the homepage and About page.
+
+To preview locally, open Terminal in this folder and run:
+python3 -m http.server 8000
+Then open http://localhost:8000/
+
+To publish: clone the live GitHub repository, copy this folder contents into it, then git add/commit/push.
