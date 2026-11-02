@@ -1,0 +1,8 @@
+
+/* Pixie’s Distribution-inspired gold ring and sparkle cursor. */
+.dl-pixie-cursor{position:fixed;inset:0;width:0;height:0;pointer-events:none;z-index:2147483000}
+.dl-pixie-cursor__ring{position:fixed;left:0;top:0;width:20px;height:20px;border:1px solid #C7A45A;border-radius:50%;box-shadow:0 0 8px rgba(199,164,90,.35),inset 0 0 5px rgba(199,164,90,.15);transform:translate(-50%,-50%) scale(1);opacity:0;pointer-events:none;transition:opacity 120ms ease,transform 180ms ease;will-change:left,top,transform}
+.dl-pixie-cursor__ring.is-visible{opacity:.9}.dl-pixie-cursor__ring.is-over-action{transform:translate(-50%,-50%) scale(1.45)}
+.dl-pixie-cursor__spark{position:fixed;left:0;top:0;width:var(--spark-size,3px);height:var(--spark-size,3px);border-radius:50%;background:#C7A45A;box-shadow:0 0 7px #C7A45A;opacity:0;pointer-events:none;animation:dl-pixie-fade 250ms ease-out forwards}
+@keyframes dl-pixie-fade{0%{opacity:.9;transform:translate(-50%,-50%) scale(1)}100%{opacity:0;transform:translate(calc(-50% + var(--spark-x)),calc(-50% + var(--spark-y))) scale(.15)}}
+@media (prefers-reduced-motion:reduce),(hover:none),(pointer:coarse){.dl-pixie-cursor{display:none}}
