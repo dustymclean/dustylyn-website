@@ -1,0 +1,31 @@
+/* Blog — DustyLyn.com. Builds on pages.css */
+.dl-page .post{max-width:780px;margin:0 auto}
+.dl-page .post-meta{display:flex;flex-wrap:wrap;gap:8px 18px;font-size:12px;text-transform:uppercase;letter-spacing:.08em;font-weight:700;color:#5abfd0;margin-top:18px}
+.dl-page .post h2{font-size:clamp(28px,3.4vw,40px);margin:62px 0 16px}
+.dl-page .post h3{font-size:23px;margin:40px 0 8px}
+.dl-page .post p,.dl-page .post li{font-size:17px;line-height:1.85}
+.dl-page .post ul{padding-left:22px}
+.dl-page .post li{margin:0 0 10px;color:#475565}
+.dl-page .post a{color:#0f7486;text-underline-offset:3px}
+.dl-page .post a:hover{color:#168da1}
+.dl-page .post .lede{font-size:20px;color:#2c3d4d}
+.dl-page .table-wrap{overflow-x:auto;margin:26px 0;border:1px solid var(--c-line);background:#fff}
+.dl-page .post table{border-collapse:collapse;width:100%;font-size:14.5px;line-height:1.6}
+.dl-page .post th{background:#172b3a;color:#fff;text-align:left;font-size:11.5px;text-transform:uppercase;letter-spacing:.08em;padding:12px 14px}
+.dl-page .post td{padding:12px 14px;border-top:1px solid var(--c-line);vertical-align:top;color:#334454}
+.dl-page .post td:first-child{white-space:nowrap;font-weight:700;color:#182839}
+.dl-page .post .q{background:#fff;border:1px solid var(--c-line);border-left:3px solid #168da1;padding:6px 24px 10px;margin:22px 0}
+.dl-page .post .q h3{margin-top:18px}
+.dl-page .post .q p{font-size:16px;margin:10px 0}
+.dl-page .post .sources h3{font-size:18px;font-family:"DM Sans",Arial,sans-serif;text-transform:uppercase;letter-spacing:.08em;margin:28px 0 6px}
+.dl-page .post .sources li{font-size:15px}
+.dl-page .post .disclaimer{font-style:italic;font-size:15px;border-top:1px solid var(--c-line);padding-top:20px;margin-top:40px}
+.dl-page .series{font-size:13px;color:#d2dfe3;margin-top:10px}
+.dl-page .postlist{display:grid;gap:22px;margin-top:34px}
+.dl-page .postcard{background:#fff;border:1px solid var(--c-line);padding:30px 32px;text-decoration:none;display:block}
+.dl-page .postcard:hover{border-color:#168da1}
+.dl-page .postcard h3{margin:10px 0 8px}
+.dl-page .postcard p{font-size:15px;margin:0 0 12px}
+.dl-page .postcard .label{font-size:11px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:#168da1}
+.dl-page .postcard .more{font-size:13px;font-weight:700}
+@media(max-width:550px){.dl-page .post p,.dl-page .post li{font-size:16px}.dl-page .post td:first-child{white-space:normal}}
